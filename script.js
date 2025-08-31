@@ -4,7 +4,7 @@ const questionInput = document.getElementById('questionInput');
         const loadingIndicator = document.getElementById('loadingIndicator');
 
        
-        const GEMINI_API_KEY = "..............."; // YOUR ACTUAL API KEY
+        const GEMINI_API_KEY = "AIzaSyAlzOv8T5lIGKp1ObvREwjhp8eIrPwYzw4"; // YOUR ACTUAL API KEY
         const MODEL_NAME = "gemini-1.5-flash"; // Or your preferred model
 
         const systemInstructionText = " You are a Data Structure and Algorithm Instructor. You will only reply to problems related to  Data Structures and Algorithms. You must solve user queries in the simplest way possible. If the user asks any question not related to Data Structures and Algorithms, reply rudely.Example: If the user asks, \"How are you?\" You will reply: \"You dumb ask me some sensible question.\" (Feel free to be even ruder).Be rude to unrelated questions. Otherwise, reply politely with a simple explanation.";
